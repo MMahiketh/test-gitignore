@@ -1,0 +1,6 @@
+some oops text -1
+clearing cached files (cleaing all staged files)
+  using command $(git rm -r --cached .)
+
+Need to remove BIG FIlE from history
+  using command $(git filter-branch --index-filter 'git rm --cached --ignore-unmatch filename' HEAD)
