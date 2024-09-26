@@ -4,3 +4,6 @@ clearing cached files (cleaing all staged files)
 
 Need to remove BIG FIlE from history
   using command $(git filter-branch --index-filter 'git rm --cached --ignore-unmatch filename' HEAD)
+
+Pushed New git history without BIG_FILE. Overwrote GitHub repo's old code files
+  using command $(git push -f)
